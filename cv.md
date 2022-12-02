@@ -62,7 +62,7 @@ My responsibilities:
 
 ---
 
-> Technical Recruiter (10.2018 ‐ 08.2020)  
+> Technical Recruiter (11.2018 ‐ 08.2020)  
 > Spell Rise (Recruiting agency)
 
 My responsibilities:
@@ -77,7 +77,7 @@ My responsibilities:
 
 ---
 
-> IT Recruiter (03.2015 ‐ 10.2018)  
+> IT Recruiter (03.2015 ‐ 11.2018)  
 > HR Partner Ukraine (Recruiting agency)
 
 My responsibilities:
