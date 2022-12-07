@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+.wrapper{
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #DCDCDC;
+}
+.photo {
+  border-radius: 70px;
+  display: block;
+  margin: 0 auto;
+}
+.name{
+  text-align: center;
+  font-size: 36px;
+}
+.personalInfo{
+  width: 50%;
+  float: right;
+}
+.personalInfo h4, .myContact h4{
+  margin-left: 100px;
+  margin-bottom: 0;
+}
+.personalInfo ul, .myContact ul {
+  list-style: none;
+  margin-top: 10px;
+}
+.myContact {
+  width: 50%;
+  display: inline-block;
+}
+.myContact a {
+  text-decoration:none;
+  color: #000000;
+}
