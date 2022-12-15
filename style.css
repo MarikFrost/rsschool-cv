@@ -1,40 +1,103 @@
 body {
   margin: 0;
-  width: 100%;
+  font-family: Saira Extra Condensed, Serif;
 }
-.wrapper{
-  width: 1000px;
-  margin: 0 auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #DCDCDC;
+a {
+  text-decoration: none;
 }
-.photo {
-  border-radius: 70px;
-  display: block;
-  margin: 0 auto;
+/* Начало блока ASIDE*/
+aside{
+  width: 250px;
+  height: 100vh;
+  background-color: #004085;
+  position: fixed;
 }
-.name{
+.photo{
+  border-radius: 100px;
+  margin: 120px 25px -10px 25px;
+  border: 5px #33669d solid;
+}
+aside * {
+  text-transform: uppercase;
+  font-weight: 600;
   text-align: center;
-  font-size: 36px;
+  font-size: 20px;
+  color: #ffffff;
 }
-.personalInfo{
-  width: 50%;
+aside ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+aside h4 {
+  margin-bottom: 10px;
+}
+aside li {
+  margin-top: 0;
+  opacity: 0.5;
+}
+aside li a:hover{
+  color: #5792c2;
+}
+/* Конец ASIDE*/
+/* Начало Header*/
+header,
+section{
+  width: 100%;
   float: right;
 }
-.personalInfo h4, .myContact h4{
-  margin-left: 100px;
-  margin-bottom: 0;
+
+.headerContent {
+  margin-left: 250px;
+  padding-left: 80px;
 }
-.personalInfo ul, .myContact ul {
+.headerContent h1 {
+  font-size: 80px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 150px;
+  margin-bottom: -30px;
+  color: #343a40;
+}
+.headerContent h1 span{
+  color: #004085
+}
+.mainContact{
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #959ba2;
+}
+.mainContact a{
+  color: #959ba2;
+}
+.mainContact .mail{
+  color: #0a478a;
+}
+.mail:hover{
+  text-decoration:underline;
+}
+.summary {
+  text-transform: none;
+  margin-top: 65px;
+  font-size: 20px;
+}
+.socialMedia{
+  margin: 70px 0 165px 0;
+  padding: 0;
+}
+.socialMedia li{
   list-style: none;
-  margin-top: 10px;
+  display: inline;
+  margin-right: 5px;
 }
-.myContact {
-  width: 50%;
-  display: inline-block;
+.socialMedia img {
+  border-radius: 30px;
 }
-.myContact a {
-  text-decoration:none;
-  color: #000000;
+/*Конец Header*/
+section{
+  height: 1000px;
+}
+section h2 {
+  font-size: 35px;
+  text-transform: uppercase;
 }
