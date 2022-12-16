@@ -13,13 +13,22 @@ section{
 aside, 
 .summary,
 .workflow li,
-.languages li{
+.languages li,
+.company span,
+.description,
+.workPlace ul li,
+.workPlace ul li a,
+.rs a,
+.github a,
+.colledge span{
   font-family: Open Sans, serif;
 }
 .content h1,
 .mainContact,
 .content h2,
-.content h6{
+.content h6,
+.company,
+.colledge{
   font-family: Saira Extra Condensed, serif;
 }
 
@@ -42,8 +51,8 @@ aside * {
   border: 5px #33669d solid;
 }
 aside ul {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 aside h4 {
@@ -94,8 +103,8 @@ aside li a:hover{
   text-decoration:underline;
 }
 .summary {
-  font-weight: 400;
   margin-top: 65px;
+  font-weight: 400;
   font-size: 16px;
   color: #868e96;
 }
@@ -104,9 +113,9 @@ aside li a:hover{
   padding: 0;
 }
 .socialMedia li{
-  list-style: none;
   display: inline;
   margin-right: 10px;
+  list-style: none;
 }
 .socialMedia img {
   border-radius: 30px;
@@ -120,33 +129,33 @@ aside li a:hover{
 
 /*Начало Section*/
 .content h2 {
+  margin: 50px 0 45px 0;
   font-size: 56px;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
-  margin: 50px 0 45px 0;
 }
 .content h6{
+  margin: 0;
   font-size: 22px;
   font-weight: 500;
   color: #868e96;
   text-transform: uppercase;
-  margin: 0;
 }
 .programming{
-  list-style: none;
   padding: 0;
   margin: 0;
+  list-style: none; 
 }
 .programming li {
   display: inline-block;
   margin: 5px 10px 40px 0;
 }
 .workflow li{
-  list-style-image:url(img/icon_list.png);
   font-weight: 400;
   font-size: 16px;
   color: #868e96;
+  list-style-image:url(img/icon_list.png);
 }
 .workflow{
   margin-bottom: 40px;
@@ -161,4 +170,104 @@ aside li a:hover{
 }
 .languages li::before{
   color: #868e96;
+}
+.company {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 28px;
+  color: #343a40;
+  text-transform: uppercase;
+}
+.company span {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: lowercase;
+}
+.description {
+  margin-top: 0;
+  margin-bottom: 45px;
+  color: #868e96;
+  font-weight: 400;
+  font-size: 16px;
+}
+.workPlace ul li {
+  color: #868e96;
+  font-weight: 400;
+  font-size: 16px;
+}
+pre{
+  margin: 0;
+}
+.code{
+  margin-bottom: 0;
+}
+.example{
+  margin: 0;
+  color: #868e96;
+}
+.workPlace ul li a {
+  color: #868e96;
+}
+.workPlace ul li a:hover{
+  text-decoration: underline;
+}
+#education{
+  margin: 50px 0 0 0;
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+.colledge{
+  margin: 0;
+  font-weight: 700;
+  font-size: 28px;
+  color: #343a40;
+  text-transform: uppercase;
+}
+.colledge span {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: lowercase;
+}
+.workPlace .speciality{
+  margin-bottom: 50px;
+}
+footer{
+  float: right;
+  width: 100%;
+}
+.footerContent{
+  margin-left: 180px;
+  padding-left: 80px;
+}
+.rs{
+  float: left;
+  margin-left: 15px;
+}
+.github{
+  float:right;
+  margin-right: 15px;
+}
+.rs a,
+.github a{
+  float:right;
+  margin-left: 5px;
+  color: #868e96;
+  font-size: 15px;
+}
+.rs a:hover,
+.github a:hover{
+  text-decoration: underline;
+  color: #000000;
+  font-weight: 700;
+}
+.years p{
+  text-align: center;
 }
