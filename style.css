@@ -1,40 +1,273 @@
 body {
   margin: 0;
+}
+a {
+  text-decoration: none;
+}
+header,
+section{
   width: 100%;
-}
-.wrapper{
-  width: 1000px;
-  margin: 0 auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #DCDCDC;
-}
-.photo {
-  border-radius: 70px;
-  display: block;
-  margin: 0 auto;
-}
-.name{
-  text-align: center;
-  font-size: 36px;
-}
-.personalInfo{
-  width: 50%;
   float: right;
+  border-bottom: 4px #e1e4e8 solid;
 }
-.personalInfo h4, .myContact h4{
-  margin-left: 100px;
+aside, 
+.summary,
+.workflow li,
+.languages li,
+.company span,
+.description,
+.workPlace ul li,
+.workPlace ul li a,
+.rs a,
+.github a,
+.colledge span{
+  font-family: Open Sans, serif;
+}
+.content h1,
+.mainContact,
+.content h2,
+.content h6,
+.company,
+.colledge{
+  font-family: Saira Extra Condensed, serif;
+}
+
+/* Начало блока ASIDE*/
+aside{
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  background-color: #004085; 
+}
+aside * {
+  color: #ffffff;
+}
+.photo{
+  margin: 120px 25px 20px 25px;
+  border-radius: 100px;
+  border: 5px #33669d solid;
+}
+aside ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+aside h4 {
+  margin-bottom: 10px;
+}
+aside li {
+  margin-top: 0;
+  line-height: 40px;
+  opacity: 0.5;
+}
+aside li a:hover{
+  color: #5792c2;
+}
+/* Конец ASIDE*/
+
+
+
+/* Начало Header*/
+.content {
+  margin-left: 250px;
+  padding-left: 80px;
+}
+.content h1 {
+  margin-top: 150px;
+  margin-bottom: -30px;
+  font-size: 80px;
+  font-weight: 800;
+  text-transform: uppercase; 
+  color: #343a40;
+}
+.content h1 span{
+  color: #004085
+}
+.mainContact{
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 500;
+  color: #959ba2;
+}
+.mainContact a{
+  color: #959ba2;
+}
+.mainContact .mail{
+  color: #0a478a;
+}
+.mail:hover{
+  text-decoration:underline;
+}
+.summary {
+  margin-top: 65px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #868e96;
+}
+.socialMedia{
+  margin: 70px 0 110px 0;
+  padding: 0;
+}
+.socialMedia li{
+  display: inline;
+  margin-right: 10px;
+  list-style: none;
+}
+.socialMedia img {
+  border-radius: 30px;
+}
+.socialMedia img:hover{
+  filter:sepia(70%);
+  transform:scale(1.2);
+}
+/*Конец Header*/
+
+
+/*Начало Section*/
+.content h2 {
+  margin: 50px 0 45px 0;
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+.content h6{
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+  color: #868e96;
+  text-transform: uppercase;
+}
+.programming{
+  padding: 0;
+  margin: 0;
+  list-style: none; 
+}
+.programming li {
+  display: inline-block;
+  margin: 5px 10px 40px 0;
+}
+.workflow li{
+  font-weight: 400;
+  font-size: 16px;
+  color: #868e96;
+  list-style-image:url(img/icon_list.png);
+}
+.workflow{
+  margin-bottom: 40px;
+}
+.languages{
+  margin-bottom: 100px;
+}
+.languages li{
+  font-weight: 400;
+  font-size: 16px;
+  color: #868e96;
+}
+.languages li::before{
+  color: #868e96;
+}
+.company {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 28px;
+  color: #343a40;
+  text-transform: uppercase;
+}
+.company span {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: lowercase;
+}
+.description {
+  margin-top: 0;
+  margin-bottom: 45px;
+  color: #868e96;
+  font-weight: 400;
+  font-size: 16px;
+}
+.workPlace ul li {
+  color: #868e96;
+  font-weight: 400;
+  font-size: 16px;
+}
+pre{
+  margin: 0;
+}
+.code{
   margin-bottom: 0;
 }
-.personalInfo ul, .myContact ul {
-  list-style: none;
+.example{
+  margin: 0;
+  color: #868e96;
+}
+.workPlace ul li a {
+  color: #868e96;
+}
+.workPlace ul li a:hover{
+  text-decoration: underline;
+}
+#education{
+  margin: 50px 0 0 0;
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+.colledge{
+  margin: 0;
+  font-weight: 700;
+  font-size: 28px;
+  color: #343a40;
+  text-transform: uppercase;
+}
+.colledge span {
+  float: right;
   margin-top: 10px;
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: lowercase;
 }
-.myContact {
-  width: 50%;
-  display: inline-block;
+.workPlace .speciality{
+  margin-bottom: 50px;
 }
-.myContact a {
-  text-decoration:none;
+footer{
+  float: right;
+  width: 100%;
+}
+.footerContent{
+  margin-left: 180px;
+  padding-left: 80px;
+}
+.rs{
+  float: left;
+  margin-left: 15px;
+}
+.github{
+  float:right;
+  margin-right: 15px;
+}
+.rs a,
+.github a{
+  float:right;
+  margin-left: 5px;
+  color: #868e96;
+  font-size: 15px;
+}
+.rs a:hover,
+.github a:hover{
+  text-decoration: underline;
   color: #000000;
+  font-weight: 700;
+}
+.years p{
+  text-align: center;
 }
