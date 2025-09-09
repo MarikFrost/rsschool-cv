@@ -56,5 +56,16 @@ Searching for PHP, JavaScript, Python, Node.js, Java, Golang, iOS, Android, QA, 
 __03.2015 - 12.2019__
 ***IT Rectuiter at HRPartner***
 My activities covered the entire recruiting cycle - from actively searching for specialists at different levels (junior, middle, senior) to sending them to clients and supporting them through all stages of interviews.
+  
+## Education
+__Odessa National Economic University__
+_Economics and Business Management, Odesa_
+  
+## Language
+__Ukrainian__ - native
+__Russian__ - native
+__English__ - A2
 
+### Social
+[Linkedin](https://www.linkedin.com/in/marikfrost/)
 
