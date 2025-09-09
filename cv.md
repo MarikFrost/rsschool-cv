@@ -46,7 +46,7 @@ const slideModule = (slider, interval, animationTime) => {
 ```
   
 ## Experience
-__02.2022 - present
+__02.2022 - present__
 ***Volunter***
   
 __01.2020 - 02.2022__
