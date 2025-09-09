@@ -47,24 +47,24 @@ const slideModule = (slider, interval, animationTime) => {
   
 ## Experience
 __02.2022 - present__
-***Volunter***
+***Volunter***  
   
 __01.2020 - 02.2022__
-***Technical IT Recruiter at com.fort***
+***Technical IT Recruiter at com.fort***  
 Searching for PHP, JavaScript, Python, Node.js, Java, Golang, iOS, Android, QA, DevOps specialists of all levels.
 
 __03.2015 - 12.2019__
-***IT Rectuiter at HRPartner***
+***IT Rectuiter at HRPartner***  
 My activities covered the entire recruiting cycle - from actively searching for specialists at different levels (junior, middle, senior) to sending them to clients and supporting them through all stages of interviews.
   
 ## Education
-__Odessa National Economic University__
+__Odessa National Economic University__  
 _Economics and Business Management, Odesa_
   
 ## Language
-__Ukrainian__ - native
-__Russian__ - native
-__English__ - A2
+__Ukrainian__ - native  
+__Russian__ - native  
+__English__ - A2  
 
 ### Social
 [Linkedin](https://www.linkedin.com/in/marikfrost/)
