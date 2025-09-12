@@ -1,35 +1,42 @@
-body{
-    display: flex;
-}
 header{
     width: 30%;
+    height: 100%;
     background-color: #202733;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: fixed;
 }
-
 .photo{
     background-color: #ffbf00;
     width: 100%;
-    height: 150px;
+    height: 100px;
 }
 .avatar{
-    width: 190px;
+    width: 140px;
     border-radius: 50%;
     border: 5px solid #ffbf00;
-    margin-top: -100px;
+    margin-top: -70px;
 }
 header h1 {
     color:#fabc11;
-    font-size: 24px;
+    font-size: 35px;
+    margin-top: 20px;
 }
 header h6 {
     color: #a5acb8;
-    font-size: 14px;
+    font-size: 20px;
 }
 .contact,.skills {
-    width: 60%;
+    width: 80%;
+    padding: 30px 20px 0 20px;
+}
+.contact-item, .skills-item{
+    display: grid;
+    grid-template-columns: 40px auto;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    margin-bottom: 10px;
 }
 .contact-img {
     width: 40px;
@@ -42,13 +49,11 @@ header h6 {
     background-size: 20px;
     grid-row: span 2;
 }
-.contact-item, .skills-item{
-    display: grid;
-    grid-template-columns: 40px auto;
-    grid-template-rows: auto auto;
-}
+
 .contact-item h3 {
     color: #ffbf00;
+    font-size: 25px;
+    align-self: end;
 }
 .line-bar {
     height: 3px;
@@ -57,10 +62,35 @@ header h6 {
 }
 .line-bar div {
     height: 100%;
-    width: 20%;
+    width: 25%;
     background-color: #ffbf00;
 }
-
+header ul{
+    color: #fff;
+}
+header ul li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+header ul li:hover{
+    color: grey;
+    text-decoration: underline;
+}
+header ul li img {
+    width: 30px;
+}
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skills ul li{
+    width: 40%;
+}
+.skills ul li span {
+    vertical-align: middle;
+    line-height: 30px;
+}
 .skills-img {
     width: 40px;
     height: 40px;
@@ -74,4 +104,24 @@ header h6 {
 }
 .skills-item h3 {
     color: #ffbf00;
+}
+/********************/
+main{
+    margin-left: calc(30% + 20px);
+}
+.experience-block {
+    height: 500px;
+}
+.exp_items-bar {
+    width: 30px;
+    height: 100%;
+    position: relative;
+}
+.exp-bar {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffbf00;
+    top: 0;
 }
