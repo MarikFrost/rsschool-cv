@@ -155,19 +155,19 @@
         </div>
         <pre>
             <code>
-                const slideModule = (slider, interval, animationTime) => {
+                const slideModule = (slider, interval, animationTime) =&gt; {
                     interval = interval * 1000
                     let sliderSize = animationSize(slider)
                     let firstChild
                     let offset
-                    setInterval(() => {
+                    setInterval(() =&gt; {
                         firstChild = copyCutPast(slider)
                         slider.style.transition = `transform ${animationTime}s ease-in-out`;
                         offset = (sliderSize) * (-1)
                         slider.style.transform = `translateX(${offset}px)`
                     }, interval)
 
-                    slider.addEventListener('transitionend', () => {
+                    slider.addEventListener('transitionend', () =&gt; {
                         slider.style.transition = 'none';
                         slider.style.transform = `translateX(${0}px)`
                         firstChild.remove()
